@@ -34,11 +34,11 @@ def main():
         return prediction
 
     model = load_model()
-    class_names=['ants', 'bees', 'beetle', 'catterpillar', 'earthworms', 'earwig',
-                    'grasshopper', 'moth', 'slug', 'snail', 'wasp', 'weevil']
+    class_names=['ants🐜', 'bees🐝', 'beetle🪲', 'catterpillar🐛', 'earthworms🪱', 'earwig',
+                    'grasshopper🦗', 'moth', 'slug', 'snail🐌', 'wasp🪰', 'weevil']
 
     st.write("""# Agricultural Pest Classification""")
-    file = st.file_uploader("Choose pest photo from computer", type=["jpg", "png", "jpeg"])
+    file = st.file_uploader("Choose pest (e.g. ants, bees, beetle, catterpillar, earthworms, earwig, grasshopper, moth, slug, snail, wasp, weevil) photo from computer", type=["jpg", "png", "jpeg"])
 
     if file is None:
         st.text("Please upload an image file")
