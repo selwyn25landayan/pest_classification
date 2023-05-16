@@ -1,1 +1,2 @@
-# pest_classification
+# Agricultural Pest Classification
+## The application can classify pests such as ants, bees, beetle, caterpillar, earthworms, earwig, grasshoppers, moths, slugs, snails, wasps, and weevils in a picture.
