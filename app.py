@@ -14,6 +14,9 @@ import numpy as np
 import cv2
 
 def main():
+    img = Image.open("agriculture.png")
+    st.set_page_config(page_title  = "Agricultural Pest Classification",
+                       page_icon = img)
     st.title("Streamlit App")
    
     @st.cache_resource
