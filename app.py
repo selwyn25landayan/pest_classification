@@ -14,6 +14,8 @@ import numpy as np
 import cv2
 
 def main():
+    [theme]
+    backgroundColor = "#B8860B"
     img = Image.open("agriculture.png")
     st.set_page_config(page_title  = "Agricultural Pest Classification",
                        page_icon = img)
